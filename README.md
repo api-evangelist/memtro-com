@@ -64,5 +64,125 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Memtro is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://www.memtro.com/
+Memtro provides a unified memory platform for companies, offering over 130 AI‑compatible connectors that let large language models access and query internal data such as CRM records, support tickets, financial ledgers, and warehouse inventories. The service delivers a single OpenAI‑compatible API, enabling seamless integration across business systems while maintaining data provenance and citation. Pricing starts at $50 per month, with tiered plans for higher usage.
+
+**Areas:** Company · AI · Memory · Connectors · Data Integration
+
+## Memtro on APIs.io
+
+Everything profiled for Memtro is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/memtro-com/](https://apis.io/providers/memtro-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Memtro API](https://apis.io/apis/memtro-com/memtro-api/) — OpenAI-compatible chat completions with Memtro's memory, connector tools, routing, agent mode and jobs.
+- [Memtro API API](https://apis.io/apis/memtro-com/memtro-api-api/) — OpenAI-compatible chat completions with Memtro's memory, connector tools, routing, agent mode and jobs.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (2)
+
+The data models the API reads and writes.
+
+- [ChatRequest](https://apis.io/schemas/memtro-com/memtro-com-chat-request/)
+- [ChatResponse](https://apis.io/schemas/memtro-com/memtro-com-chat-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Memtro Com Context](https://apis.io/jsonld/memtro-com/memtro-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Memtro API Rules](https://apis.io/rules/memtro-com/memtro-com-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Memtro Authentication](https://apis.io/security/memtro-com/memtro-com-authentication/)
+- [Memtro Domain Security](https://apis.io/security/memtro-com/memtro-com-domain-security/)
+- [Memtro Vulnerability Disclosure](https://apis.io/security/memtro-com/memtro-com-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Memtro Plans Pricing](https://apis.io/plans/memtro-com/memtro-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.memtro.com/)
+- [Documentation](https://www.memtro.com/docs/)
+- [Getting started](https://www.memtro.com/docs/getting-started/)
+- [API reference](https://www.memtro.com/llms.txt)
+- [Pricing](https://www.memtro.com/pricing/)
+- [Support](https://www.memtro.com/use-cases/support/)
+- [Changelog](https://www.memtro.com/changelog/)
+- [Blog](https://www.memtro.com/blog/)
+- [Security](https://www.memtro.com/security/)
+- [Terms of service](https://www.memtro.com/terms/)
+- [Privacy policy](https://www.memtro.com/privacy/)
+- [GitHub](https://github.com/memtro-org)
+
+## API Evangelist rating
+
+**Kin Score 61.9** — strong · rubric 0.27.0 · scored 2026-11-10
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 54.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 31.6 |
+| Developer ergonomics | 57.1 |
+| Access clarity | 73.2 |
+
+**Agent readiness 27.8** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/memtro-com/](https://apis.io/providers/memtro-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Memtro: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/memtro-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
